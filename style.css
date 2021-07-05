@@ -2,6 +2,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 h1{
@@ -12,25 +13,60 @@ h2{
     font-size: 40px;
 }
 
+h3{
+    font-size: 25px;
+}
 
-
+p{
+    text-align: justify;
+}
 /* --- style for defined calass --- */
 
-.summary-area{
+.flexible-area{
     display: flex;
+    margin-bottom: 30px;
+}
+
+.summary-area{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .education-area{
-    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 
 .half-width{
     width: 50%;
+    padding: 5%;
+    
 }
 
 .half-width img{
-    width: 80%;
+    width: 100%;
+    
 }
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.orange-color{
+    color: orange; 
+}
+
+.gray-color{
+    color: rgba(128, 128, 128, 0.712); 
+}
+
 
 
 /* --- style for IDs --- */
