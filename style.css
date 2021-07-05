@@ -1,0 +1,36 @@
+/* --- style for HTML tags --- */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+
+
+/* --- style for defined calass --- */
+
+.summary-area{
+    display: flex;
+}
+
+.education-area{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+
+/* --- style for IDs --- */
